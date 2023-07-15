@@ -1,0 +1,5 @@
+[book]
+authors = ["Guarneri009"]
+language = "en"
+multilingual = false
+src = "src"
