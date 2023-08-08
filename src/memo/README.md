@@ -3,6 +3,9 @@
 
 # 以下のシークレットが必要です。
 
+参考URL
+https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#configuring-the-role-and-trust-policy
+
 ```
       # ${{ secrets.AWS_GIT_ACTIONS_DEV_ROLE_ARN }} (設定例) arn:aws:iam::xxxxxxxxx:role/xxxxxxxx-Role
       # ${{ secrets.AWS_EC2_DEV_SECURITY_GROUP_ID }} (設定例) sg-0xxxxxxxx
@@ -15,7 +18,7 @@
       #         {
       #             "Effect": "Allow",
       #             "Principal": {
-      #                 "Federated": "arn:aws:iam:<aws account no>:oidc-provider/token.actions.githubusercontent.com"
+      #                 "Federated": "arn:aws:iam:<aws account no>::oidc-provider/token.actions.githubusercontent.com"
       #             },
       #             "Action": "sts:AssumeRoleWithWebIdentity",
       #             "Condition": {
