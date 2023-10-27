@@ -11,6 +11,7 @@ mdbook serve --open でホットリロード状態
 <https://www.tohoho-web.com/ex/mathjax.html>
 
 インライン
+
 \\(
 \begin{eqnarray}
   i\hbar\frac{\partial}{\partial t}\psi(x,t)=
@@ -40,3 +41,7 @@ Use [mdBook](https://github.com/rust-lang/mdBook).
 Read about [mdBook](mdBook.md).
 
 A bare url: <https://www.rust-lang.org>.
+
+## mdBookで日本語検索
+
+https://blog.bridgey.dev/2023/06/14/search-japanese-on-mdbook/
