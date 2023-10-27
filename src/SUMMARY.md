@@ -7,3 +7,6 @@
     - [Sub-chapter2](nested/sub-chapter2.md)
     - [Sub-chapter3](nested/sub-chapter3.md)
 - [My First Chapter2](my-first-chapter2.md)
+- [Memo](memo/README.md)
+    - [Rust](memo/rust-chapter.md)
+    - [Docker](memo/docker-chapter.md)
