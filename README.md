@@ -3,6 +3,13 @@
 ## mdbook
 https://rust-lang.github.io/mdBook/index.html
 
+
+### インストール
+
+cargo install mdbook
+
+
+
 mdbook serve --open でホットリロード状態
 
 ## mathjax
