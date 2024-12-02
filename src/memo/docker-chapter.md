@@ -27,5 +27,5 @@ FROM --platform=linux/amd64 ubuntu:18.04
     build:
       context: .
       dockerfile: Dockerfile-deploy
-    platform: linux/x86_64
+    platform: linux/x86_64　＜＝＝＝　ここ
 ```
