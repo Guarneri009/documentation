@@ -10,3 +10,4 @@
 - [Memo](memo/README.md)
     - [Rust](memo/rust-chapter.md)
     - [Docker](memo/docker-chapter.md)
+    - [Elasticsearch](memo/elasticsearch-chapter.md)
