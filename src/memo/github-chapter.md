@@ -1,10 +1,9 @@
 # Github
 
-
-# 以下のシークレットが必要です。
+# 以下のシークレットが必要です
 
 - 参考URL
-- https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#configuring-the-role-and-trust-policy
+- <https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#configuring-the-role-and-trust-policy>
 
 ``` json
  ${{ secrets.AWS_GIT_ACTIONS_DEV_ROLE_ARN }} (設定例) arn:aws:iam::xxxxxxxxx:role/xxxxxxxx-Role

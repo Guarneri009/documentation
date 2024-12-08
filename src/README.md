@@ -1,13 +1,14 @@
 # Introduction
 
-
 ## mdbook
+
 [https://rust-lang.github.io/mdBook/index.html](https://rust-lang.github.io/mdBook/index.html)  
 <https://github.com/rust-lang/mdBook>
 
 mdbook serve --open でホットリロード状態
 
 ## mathjax
+
 <https://www.tohoho-web.com/ex/mathjax.html>
 
 インライン
@@ -24,8 +25,8 @@ mdbook serve --open でホットリロード状態
 \\[ \mu = \frac{1}{N} \sum_{i=0} x_i \\]
 エンド
 
-
 ## mermaid 拡張
+
 <https://github.com/badboy/mdbook-mermaid>
 
 ```mermaid
@@ -36,7 +37,7 @@ graph TD;
     C-->D;
 ```
 
-Use [mdBook](https://github.com/rust-lang/mdBook). 
+Use [mdBook](https://github.com/rust-lang/mdBook).
 
 Read about [mdBook](mdBook.md).
 
@@ -44,4 +45,4 @@ A bare url: <https://www.rust-lang.org>.
 
 ## mdBookで日本語検索
 
-https://blog.bridgey.dev/2023/06/14/search-japanese-on-mdbook/
+<https://blog.bridgey.dev/2023/06/14/search-japanese-on-mdbook/>

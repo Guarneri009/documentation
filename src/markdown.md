@@ -2,13 +2,13 @@
 
 mdBook's [parser](https://github.com/raphlinus/pulldown-cmark) adheres to the [CommonMark](https://commonmark.org/) specification with some extensions described below.
 You can take a quick [tutorial](https://commonmark.org/help/tutorial/),
-or [try out](https://spec.commonmark.org/dingus/) CommonMark in real time. A complete Markdown overview is out of scope for 
+or [try out](https://spec.commonmark.org/dingus/) CommonMark in real time. A complete Markdown overview is out of scope for
 this documentation, but below is a high level overview of some of the basics. For a more in-depth experience, check out the
 [Markdown Guide](https://www.markdownguide.org).
 
 ## Text and Paragraphs
 
-Text is rendered relatively predictably: 
+Text is rendered relatively predictably:
 
 ```markdown
 Here is a line of text.
@@ -36,11 +36,11 @@ Some text.
 More text.
 ```
 
-### A heading 
+### A heading
 
 Some text.
 
-#### A smaller heading 
+#### A smaller heading
 
 More text.
 
@@ -78,7 +78,7 @@ Read about [mdBook](mdBook.md).
 A bare url: <https://www.rust-lang.org>.
 ```
 
-Use [mdBook](https://github.com/rust-lang/mdBook). 
+Use [mdBook](https://github.com/rust-lang/mdBook).
 
 Read about [mdBook](mdBook.md).
 
@@ -193,8 +193,8 @@ Example:
 
 This will render as:
 
-> - [x] Complete task
-> - [ ] Incomplete task
+> * [x] Complete task
+> * [ ] Incomplete task
 
 See the specification for the [task list extension] for more details.
 
@@ -226,6 +226,7 @@ To enable it, see the [`output.html.curly-quotes`] config option.
 Headings can have a custom HTML ID and classes. This lets you maintain the same ID even if you change the heading's text, it also lets you add multiple classes in the heading.
 
 Example:
+
 ```md
 # Example heading { #first .class1 .class2 }
 ```
