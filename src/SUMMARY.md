@@ -7,6 +7,7 @@
 - [Markdown](markdown.md)
 
 - [Memo](memo/README.md)
+  - [Free](memo/free-chapter.md)
   - [Rust](memo/rust-chapter.md)
   - [Docker](memo/docker-chapter.md)
   - [Elasticsearch](memo/elasticsearch-chapter.md)
