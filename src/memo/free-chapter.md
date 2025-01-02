@@ -16,3 +16,7 @@ scp -r -i ~/.ssh/xxxxxxxxxxxxxxx.pem ubuntu@i-xxxxxxxxxxxxxxx:/home/ubuntu/xxx/x
 scp -i ~/.ssh/xxxxxxxxxxxxxxx.pem メモ.txt ubuntu@i-xxxxxxxxxxxxxxx:/home/ubuntu
 
 ```
+
+Bentley-Ottmannアルゴリズム
+
+Zevenbergen & Thorne (1986) の曲率計算アルゴリズム
