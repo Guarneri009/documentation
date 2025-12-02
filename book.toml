@@ -10,6 +10,7 @@ mathjax-support = true
 git-repository-url = "https://github.com/Guarneri009/documentation"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Guarneri009/documentation/edit/main/{path}"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [preprocessor]
 
