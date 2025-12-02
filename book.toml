@@ -7,7 +7,6 @@ src = "src"
 default-theme = "light"
 preferred-dark-theme = "navy"
 mathjax-support = true
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
 git-repository-url = "https://github.com/Guarneri009/documentation"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/Guarneri009/documentation/edit/main/{path}"
