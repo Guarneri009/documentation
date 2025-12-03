@@ -1,18 +1,3 @@
 [book]
 authors = ["Guarneri009"]
 language = "en"
-src = "src"
-
-[output.html]
-default-theme = "light"
-preferred-dark-theme = "navy"
-mathjax-support = true
-git-repository-url = "https://github.com/Guarneri009/documentation"
-git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/Guarneri009/documentation/edit/main/{path}"
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
-
-[preprocessor]
-
-[preprocessor.mermaid]
-command = "mdbook-mermaid"
