@@ -3,8 +3,8 @@
 
 ## MCP
 
-claude mcp add --transport stdio serena -- uvx --from git+https://github.com/oraios/serena serena-mcp-server
-claude mcp add context7 -- npx @upstash/context7-mcp
+- claude mcp add --transport stdio serena -- uvx --from git+https://github.com/oraios/serena serena-mcp-server
+- claude mcp add context7 -- npx @upstash/context7-mcp
 
 
 ## mdbook
