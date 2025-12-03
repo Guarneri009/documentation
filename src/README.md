@@ -5,7 +5,12 @@
 
 - claude mcp add --transport stdio serena -- uvx --from git+https://github.com/oraios/serena serena-mcp-server
 - claude mcp add context7 -- npx @upstash/context7-mcp
+- claude mcp add context7 -s project -- npx -y @upstash/context7-mcp (プロジェクト単位)
 
+- https://zenn.dev/karaage0703/articles/3bd2957807f311
+
+MCPサーバを削除したい場合は、以下コマンドを実行しましょう。
+- claude mcp remove xxx
 
 ## mdbook
 
