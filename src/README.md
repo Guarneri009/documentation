@@ -12,6 +12,34 @@
 MCPサーバを削除したい場合は、以下コマンドを実行しましょう。
 - claude mcp remove xxx
 
+- .mcp.json
+``` json
+{
+  "mcpServers": {
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {}
+    },
+    "serena": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena-mcp-server"
+      ],
+      "env": {}
+    }
+  }
+}
+```
+
+
 ## mdbook
 
 [https://rust-lang.github.io/mdBook/index.html](https://rust-lang.github.io/mdBook/index.html)  
